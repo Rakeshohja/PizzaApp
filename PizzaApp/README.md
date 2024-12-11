@@ -43,11 +43,7 @@ The project adheres to the **MVVM (Model-View-ViewModel)** architecture:
 - Features a button to load data from the API.
 - Includes a link to navigate to the **Contact Us** page.
 
-### **2. Pizza Details Page**
-- Displays detailed information about a selected pizza.
-- Implements navigation from the Home Page using Shell Routing.
-
-### **3. Contact Us Page**
+### **2. Contact Us Page**
 - A static page with dummy contact information.
 - Linked from the Home Page for easy navigation.
 
