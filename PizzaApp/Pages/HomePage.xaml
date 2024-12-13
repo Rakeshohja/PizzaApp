@@ -4,10 +4,10 @@
              xmlns:model="clr-namespace:PizzaApp.Models"
              x:Class="PizzaApp.Pages.HomePage"
              x:DataType="vm:HomeViewModel"
-             Title="Pizza Menu">
+             Title="Pizza Menu"
+             BackgroundColor="PaleGoldenrod">
 
     <VerticalStackLayout Padding="10" Spacing="10">
-        <!-- Button to Load Pizzas -->
         <Button Text="Load Pizzas" Command="{Binding LoadPizzasCommand}" />
 
         <Label Text="Contact Us"

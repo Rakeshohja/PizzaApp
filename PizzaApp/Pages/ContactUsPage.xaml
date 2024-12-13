@@ -3,8 +3,8 @@
              x:Class="PizzaApp.Pages.ContactUsPage"
              Title="Contact Us">
 
-    <VerticalStackLayout Padding="20" Spacing="10">
-        <Label Text="Contact Us" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" />
+    <VerticalStackLayout Padding="20" Spacing="10" Background="PaleGoldenrod">
+        <Label Text="Contact Us" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" VerticalOptions="Center"/>
         <Label Text="We would love to hear from you!" FontSize="18" />
         <Label Text="Email: contact@pizzaapp.com" FontSize="16" />
         <Label Text="Phone: +1 123-456-7890" FontSize="16" />
