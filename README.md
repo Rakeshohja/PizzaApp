@@ -180,6 +180,3 @@ The project adheres to the **MVVM (Model-View-ViewModel)** architecture:
 - Add advanced UI features like filtering and sorting.
 - Enhance offline capabilities with more robust error handling.
 
----
-
-Let me know if you need further modifications!
