@@ -12,12 +12,12 @@ public class DatabaseService
     public DatabaseService(string dbPath)
     {
         _database = new SQLiteAsyncConnection(dbPath);
-        _database.CreateTableAsync<Pizza>().Wait(); // Ensure the table exists
+        _database.CreateTableAsync<Pizza>().Wait(); 
     }
 
     public Task<List<Pizza>> GetPizzasAsync()
     {
-        // Get all pizzas from the database
+        // all pizzas from the database
         return _database.Table<Pizza>().ToListAsync();
     }
 
