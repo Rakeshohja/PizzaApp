@@ -14,7 +14,7 @@ public partial class HomeViewModel : ObservableObject
 
     public ObservableCollection<Pizza> Pizzas { get; set; } = new();
 
-    // Add the IsLoading property
+    
     [ObservableProperty]
     private bool isLoading;
 
@@ -29,7 +29,7 @@ public partial class HomeViewModel : ObservableObject
     {
         try
         {
-            IsLoading = true; // Start loading
+            IsLoading = true; 
 
             // Clear existing pizzas
             Pizzas.Clear();
@@ -64,7 +64,7 @@ public partial class HomeViewModel : ObservableObject
         }
         finally
         {
-            IsLoading = false; // Stop loading
+            IsLoading = false; 
         }
     }
 

@@ -6,7 +6,6 @@ public partial class AppShell : Shell
     {
         InitializeComponent();
 
-        // Explicit route registration
         Routing.RegisterRoute("ContactUsPage", typeof(PizzaApp.Pages.ContactUsPage));
     }
 }
