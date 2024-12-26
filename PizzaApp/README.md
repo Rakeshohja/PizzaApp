@@ -1,11 +1,3 @@
-﻿
----
-Group :-  <br>
-Rakesh Ohja - A00260719 <br>
-Priyanka Paul - A00287707  <br>
-Tamanna Vohra - A00290570  <br>
-Harold reyes - A00281588
-
 # **PizzaApp**
 
 PizzaApp is a .NET MAUI application demonstrating a pizza menu system using **MVVM architecture**, **API integration**, and **SQLite database storage**. It allows users to view pizza details, fetch data from an API, store the data locally for offline use, and navigate to a static "Contact Us" page.
